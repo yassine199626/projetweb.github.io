@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site personel</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><i class="fa fa-home" aria-hidden="true"></i><a href="../index.html">   Acceuil</a></li>
+                <li><i class="fa fa-graduation-cap" aria-hidden="true"></i>    Formation<i class="fa fa-chevron-down" aria-hidden="true" class="li_navbar"></i>
+                    <div class="navbar-div">
+                        <div><a href="formation.html">Formation acadimique</a></div>
+                        <div><a href="formationp.html">formation professionel</a></div>
+                        
+                    </div>
+                </li>
+                <li><i class="fa fa-cogs" aria-hidden="true"></i>    stage&competence<i class="fa fa-chevron-down" aria-hidden="true" class="li_navbar"></i>
+                    <div class="navbar-div1">
+                        <div><a href="stage.html">stages</a></div>
+                        <div><a href="competence.html">competence</a></div>
+                    </div>
+                </li>
+                <li><a href="loisir.html"><i class="fa fa-magic" aria-hidden="true"></i>    loisir</a></li>
+                <li><a href="projet.html"> <i class="fa fa-desktop" aria-hidden="true"></i>   projet réaliser</a></li>
+                <li><a href="quiz.html"><i class="fa fa-gamepad" aria-hidden="true"></i>    quiz</a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i> contact</a></li>
+                <li><a href="iit.html"><i class="fa fa-university" aria-hidden="true"></i>   a propos iit</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        <section id="containerquiz">
+            <section id="temps">
+                <div id="minute"></div>
+                <div id="point">:</div>
+                <div id="seconde"></div>
+            </section>
+            <section id="question">
+                <h2 id="letextquestion">question:Dans quel balise HTML plaçons-nous le code JavaScript?</h2>
+                <ul>
+                    <li class="choix">
+                        <input type="radio" id="a" name="question" value="false" class="input">
+                        <label for="a" id="atext" >La balise js</label>
+                    </li>
+                    <li class="choix">
+                        <input type="radio" id="b" name="question" value="false" class="input">
+                        <label for="b" id="btext"> La balise javascript</label>
+                    </li>
+                    <li class="choix">
+                        <input type="radio" id="c" name="question" value="correct" class="input">
+                        <label for="c" id="ctext">La balise script</label>
+                    </li>
+                </ul>
+                <button id="sumbit">Next</button>
+                <button id="finish">finish</button>
+            </section>
+            
+        </section>
+        <section id="tableaudereponse">
+            
+            <table id="resulttable">
+                <thead>
+                    <tr>
+                        <th>La question</th>
+                        <th>Votre reponse</th>
+                        <th>Reponse juste</th>
+                        <th>Resultat</th>
+                    </tr>
+                </thead>
+                <tbody id="tablereponsebody">
+
+                </tbody>
+            </table>
+
+
+
+        </section>
+        
+        
+    </main>
+    <footer>
+        <center>
+            <p><i class="fa fa-phone " aria-hidden="true"></i>téléphone:92968068</p>
+            <p><i class="fa fa-map-marker " aria-hidden="true"></i>adresse:route el ain km 8</p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i>adresse mail:yassine.jomaa@gmail.com</p>
+        
+        </center>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>

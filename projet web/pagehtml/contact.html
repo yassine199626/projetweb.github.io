@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site personel</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><i class="fa fa-home" aria-hidden="true"></i><a href="../index.html">   Acceuil</a></li>
+                <li><i class="fa fa-graduation-cap" aria-hidden="true"></i>    Formation<i class="fa fa-chevron-down" aria-hidden="true" class="li_navbar"></i>
+                    <div class="navbar-div">
+                        <div><a href="formation.html">Formation acadimique</a></div>
+                        <div><a href="formationp.html">formation professionel</a></div>
+                        
+                    </div>
+                </li>
+                <li><i class="fa fa-cogs" aria-hidden="true"></i>    stage&competence<i class="fa fa-chevron-down" aria-hidden="true" class="li_navbar"></i>
+                    <div class="navbar-div1">
+                        <div><a href="stage.html">stages</a></div>
+                        <div><a href="competence.html">competence</a></div>
+                    </div>
+                </li>
+                <li><a href="loisir.html"><i class="fa fa-magic" aria-hidden="true"></i>    loisir</a></li>
+                <li><a href="projet.html"> <i class="fa fa-desktop" aria-hidden="true"></i>   projet réaliser</a></li>
+                <li><a href="quiz.html"><i class="fa fa-gamepad" aria-hidden="true"></i>    quiz</a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i> contact</a></li>
+                <li><a href="iit.html"><i class="fa fa-university" aria-hidden="true"></i>   a propos iit</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="containerpagecontact">
+       <center><h2>Contacter moi</h2></center>
+       <section id="containerContactglobale">
+            <section id="containerinfogenerale">
+                <p><i class="fa fa-phone " aria-hidden="true"></i>téléphone:92968068</p>
+                <p><i class="fa fa-map-marker " aria-hidden="true"></i>adresse:route el ain km 8</p>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i>adresse mail:yassine.jomaa@gmail.com</p>
+            </section>
+            <section id="containercontactdirect" >
+                
+                    <table>
+                        <tr>
+                            <td><label for="nom">nom</label></td>
+                            <td><input type="text" id="nom" name="nom" placeholder="entre ton nom"></td>
+                            <td><label for="prenom">prenom</label></td>
+                            <td><input type="text" id="prenom" name="prenom" placeholder="entre ton prenom"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="objet">objet de ton message</label></td>
+                            <td><input type="text" id="objet" name="objet" placeholder="l'objet de ton email"></td>
+                            <td><label for="adresse">adresse mail</label></td>
+                            <td><input type="text" id="adresse" name="adresse" placeholder="entre ton adresse mail"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">entrer ton message</label></td>
+                            <td colspan="3"><textarea id="message" name="message" placeholder="ecrire quelque chose.." style="height:200px;width:500px;"></textarea></td>
+                        </tr>
+                    </table>
+
+                    <input type="submit" value="Envoye" id="envoyer">
+                
+            </section>
+       </section>
+    </main>
+    <script src="../js/contact.js"></script>
+</body>
+</html>

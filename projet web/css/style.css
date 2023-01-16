@@ -1,0 +1,535 @@
+body{
+    background-image: url("../image/background.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100%;
+}
+a{
+    text-decoration: none;
+    color:white ;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: #8294A9;
+    font-family: 'Dancing Script', cursive;
+    font-size:1.1em;
+    
+}
+.navbar ul li:hover {
+    background-color: #D9D6D6;
+    
+    
+}
+.navbar-div,.navbar-div1{
+    display:none;
+    position: absolute;
+
+    
+}
+
+.navbar ul li:hover .navbar-div,.navbar ul li:hover .navbar-div1{
+    display: block;
+    background-color: #0564D1;
+    color:white;
+    width:13em;
+}
+.navbar ul li:hover .navbar-div div:hover ,.navbar ul li:hover .navbar-div1 div:hover{
+    background-color: #FF7777;
+    color:#FF7777;
+}
+#titresiteweb{
+    color: #366191;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2em;
+    margin-bottom:0.5em;
+
+}
+
+.navbar ul li{
+    display:inline-block;
+    margin-right:20px;
+    color:white;
+    font-size: 1.5em;
+
+    
+}
+
+#my_image{
+    width:20em;
+    height:20em;
+    border-radius:50%;
+    margin-right:4em;
+}
+
+#container2{
+    margin-top: 2em;
+    margin-left:5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#biographie{
+    margin-top:1em;
+    font-family: 'Permanent Marker', cursive;
+}
+.champbio{
+    color: #FF7777;
+}
+.descchambio{
+    color: #366191;
+}
+.fa_main{
+    
+    margin-left: 2em;
+    color: #282767;
+    
+}
+.Link_socialmedia :hover{
+background-color: #8294A9;
+color:white;
+}
+footer p{
+    display: inline-block;
+    margin-right:5em;
+    color:#194138;
+    font-size: 0.9em;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+footer{
+    margin-top:5em;
+    background-color: #A5E4D6;
+
+}
+footer p i{
+    margin-right: 1em;
+}
+/*page Loisir*/
+.imageLoisir{
+border-radius: 50%;
+width: 5em;
+height: 5em;
+}
+
+#containerLoisir1,#containerLoisir2{
+    margin-top: 7em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#containerLoisir1  h2,#containerLoisir2  h2{
+font-family: 'Courier New', Courier, monospace;
+color: #366191;
+font-size: 1.4em;
+
+}
+#containerLoisir1 section h4,#containerLoisir2 section h4{
+    font-family: 'Courier New', Courier, monospace;
+    color: #0E5C4B;
+    font-size: 1.2em;
+    
+    }
+/**page competence**/
+.imgcompetence{
+    border-radius: 50%;
+    width: 5em;
+    height: 5em; 
+}
+#competence{
+    margin-top: 2em;
+   display: flex;
+   flex-direction: row;
+   margin-left: 9em;
+   
+}
+
+#competence section section div{
+    display:inline-block;
+    
+    
+}
+
+#competence section{
+    margin-left:5em;
+}
+#java,#javascript,#python,#php,#html,#C,#arab,#france,#anglais{
+    width:0;
+    
+    background-color: #212d3a;
+    color:white;
+    transition: width 2s  ;
+}
+#skillsinprograming h2,#language h2{
+    color: #366191;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2em;
+    margin-bottom:0.5em;
+}
+.skills h4{
+    
+    color: #3C7C6E;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+#html:hover{
+    width:170px;
+    height:50px;
+   
+}
+
+
+#C:hover{
+    width:120px;
+    height:50px;
+   
+}
+
+
+
+#java:hover{
+    width:80px;
+    height:50px;
+   
+}
+
+#javascript:hover{
+    width:140px;
+    height:50px;
+   
+}
+
+
+#python:hover{
+    width:100px;
+    height:50px;
+   
+}
+
+#php:hover{
+    width:100px;
+    height:50px;
+   
+}
+#arab:hover{
+    width:200px;
+    height:50px;
+   
+}
+#france:hover{
+    width:100px;
+    height:50px;
+   
+}
+#anglais:hover{
+    width:120px;
+    height:50px;
+   
+}
+/**page iit***/
+#containeriit{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:5em;
+}
+#titreiit{
+    font-family: 'Rubik Distressed', cursive;
+    color: #FF7777;
+}
+#descriptioniit{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 13px;
+    background-color: #366191;
+    font-size:0.85em;
+    margin-right:1em;
+    opacity: 0.7;
+}
+.Institue{
+    display: inline-block;
+}
+#containericone{
+display:flex ;
+flex-direction: row;
+justify-content: space-around;
+background-color:white;
+opacity: 0.8;
+
+}
+#containericone p i{
+    margin-right:1.5em;
+}
+#containericone p {
+    font-family: 'Courier New', Courier, monospace;
+}
+#iit{
+    height: 7em;
+    width: 7em;
+    float: left;
+}
+
+/**page conctact***/
+#containerContactglobale{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+#containerinfogenerale p i{
+    margin-right:2em;
+    margin-left: 1em;
+}
+#containerinfogenerale{
+    background-color: #366191;
+    border-radius:4em;
+    padding-top:6em;
+    
+}
+#containerinfogenerale p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    
+}
+#containercontactdirect{
+    margin-left: 5em;
+}
+#containercontactdirect label{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    color:#FF7777;
+}
+#containerpagecontact{
+    margin-top:100px;;
+}
+#containerpagecontact h2{
+    color: #0A2B69;
+    font-family:'Rubik Distressed', cursive;
+}
+input,textarea{
+    border-radius: 8%;
+}
+input:hover,textarea:hover{
+    background-color: #97aec9;
+}
+input[type=submit]{
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+    margin-left: 30em;
+}
+/****page quiz******/
+#minute,#seconde,#point{
+    display: inline-block;
+    
+    margin-left:15px;
+    font-size: 20px;
+    font-family:'Permanent Marker', cursive; 
+
+}
+#temps{
+    border: 2px solid gray;
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+    margin-top: 80px;
+    padding-top: 35px;
+    position: fixed;
+    
+}
+
+#question{
+    margin-top: 80px;
+    margin-left:25em;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: #A5E4D6;
+    width: 40em;
+}
+#question label{
+    font-size: 20px;
+}
+#containerquiz{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#letextquestion{
+    margin-top: 0em;
+    text-align:center;
+    background-color: #25BE89;
+}
+.choix{
+    margin-bottom:4em;
+    list-style-type: none;
+}
+#sumbit{
+    height: 2em;
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 3em;
+}
+#finish{
+    display:none;
+    
+}
+#finish{
+    height: 2em;
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 3em;
+}
+#tablereponsebody tr td{
+    border: 1px solid #25BE89;
+    background-color: #A5E4D6;
+    text-align: center;
+    padding: 0.4em;
+    color:#3C7C6E;
+    font-weight: bolder;
+}
+th{
+    border:1px solid #A5E4D6;
+    background-color:#25BE89 ;
+    text-align: center;
+    padding: 1em;
+    color: #EDF0F9;
+    
+}
+#resulttable{
+    width:40em;
+}
+#tableaudereponse{
+    display: none;
+    margin-top: 4em;
+    margin-left:7em;
+}
+/**page formation***/
+.buttondiplome{
+    margin-top: 4em;
+    margin-left: 8em;
+    margin-bottom:1em;
+    width:3em;
+    height: 3em;
+    border-radius:50%;
+}
+.buttondiplome:hover{
+    background-color: #8294A9;
+    color: white;
+}
+#diplome{
+    width:25em;
+    height:25em;
+}
+figcaption{
+    margin-left:10em;
+    font-family:'Permanent Marker', cursive; 
+    color: #212d3a;
+    font-size: 1em;
+}
+#containerformation{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    
+}
+#containerdescdiplome{
+    background-color: #366191;
+    color: #FF7777;
+    font-size:2em;
+    padding:2em;
+    font-family:'Rubik Distressed', cursive;
+
+}
+/***page formation profisionel***/
+#containerformation{
+display: flex;
+flex-direction: row;
+}
+.titre{
+    color:#3C7C6E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+
+.lignesEspacees
+{
+ border-collapse : separate;
+ border-spacing : 2em;
+}
+.info{
+color: white;
+font-size: 1.3em;
+
+}
+#formationweb{
+    background-color: #B4A9A9;
+    border-radius: 2em;
+}
+#certif img{
+    width: 35em;
+    height: 25em;
+    margin-left: 2em;
+}
+#popup{
+position: absolute;
+width: 75em;
+height: 50em;
+background-color: #CEC7BD;
+left: 40px;
+top:10px;
+opacity: 0.9;
+display:none;
+
+
+}
+#popup img{
+width: 55em;
+height:45em;
+margin-top: 1em;
+margin-left: 8em;
+
+}
+#popup #close{
+    position: absolute;
+    top:1em;
+    right:1em;
+}
+/***page projet*****/
+#containerpageprojet{
+    margin-top: 5em;
+    
+}
+#containerpageprojet button{
+    margin-left: 5.5em;
+    font-size:1.5em;
+}
+#imageprojet{
+    height: 30em;
+    width: 50em;
+    
+}
+#titreprojet{
+    margin-left: 4em;
+}
+#stop{
+    display:none;
+}
+/****page de stage***/
+#container_stage{
+    display: flex;
+    flex-direction: row;
+}
+.stageréaliser
+{
+ border-collapse : separate;
+ border-spacing : 2em;
+}
+#centredeformation{
+    width: 35em;
+    height: 25em;
+}
+#stage{
+    background-color: #B4A9A9;
+    border-radius: 2em;
+    margin-right:1em;
+}
